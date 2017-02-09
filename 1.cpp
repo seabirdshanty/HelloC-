@@ -1,11 +1,8 @@
 #include <iostream>
-//#include <cstdlib> // allows use of system() clauses. Not Good.
 #include <string>
 using namespace std;
 int main() 
 {
-	//system("cls"); system("color f6");
-	
 	string kimiNoNawa;
 	string pawse;
 	int uage;
@@ -19,7 +16,6 @@ int main()
 	cout << " Amazing, you've lived for " << uage << " years? I've only been manufactured for 7!\n" << endl;
 	cout << " Thank you for talking to me, " << kimiNoNawa << ".\n I hope you have a wonderful day today." << endl;
 	cout << " Remember, not every day will be great, but tomorrow will always be better.\n" << endl;
-    cin >> pawse;
-	//system("pause");
+   	cin >> pawse;
 	return 0;
 }
